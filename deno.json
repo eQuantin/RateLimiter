@@ -1,0 +1,35 @@
+{
+    "name": "@equantin/ratelimiter",
+    "version": "0.1.0",
+    "description": "",
+    "tasks": {
+        "run": "deno run --allow-net src/examples/usage-example.ts",
+        "test": "deno test --allow-net"
+    },
+    "exports": {
+        ".": "./mod.ts"
+    },
+    "compilerOptions": {
+        "strict": true
+    },
+    "lint": {
+        "include": [
+            "src/"
+        ]
+    },
+    "fmt": {
+        "include": [
+            "src/"
+        ],
+        "lineWidth": 120,
+        "semiColons": true,
+        "useTabs": true,
+        "indentWidth": 4,
+        "lineEnding": "lf",
+        "singleQuote": false
+    },
+    "imports": {
+        "@std/assert": "jsr:@std/assert@^1.0.13",
+        "@std/async": "jsr:@std/async@^1.0.13"
+    }
+}

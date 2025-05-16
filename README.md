@@ -1,4 +1,4 @@
-# RateLimiter
+# Rate Limiter
 
 A flexible and efficient client library for consuming rate-limited APIs with
 Deno. This library helps clients respect API rate limits, manage request
